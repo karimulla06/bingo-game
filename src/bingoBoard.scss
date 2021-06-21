@@ -1,0 +1,55 @@
+body {
+  background-color: burlywood;
+}
+
+.game-area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.bingo-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.bingo-box {
+  box-sizing: border-box;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  width: 90%;
+}
+
+.bingo-button {
+  margin: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+.new-button {
+  padding: 10px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+}
+
+.bingo-select {
+  margin: 10px auto;
+}
