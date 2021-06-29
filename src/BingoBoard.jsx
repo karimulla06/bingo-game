@@ -23,7 +23,7 @@ export default function BingoBoard() {
     0
   );
 
-  const boardSizes = [3, 4, 5, 6];
+  const boardSizes = [3, 4, 5, 6, 7, 8];
 
   const handleClick = (key, index) => {
     if (!selected.includes(key) && linesCompleted < size) {
